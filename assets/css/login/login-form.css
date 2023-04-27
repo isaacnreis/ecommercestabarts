@@ -1,0 +1,10 @@
+.login__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-secundaria);
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 5.3125rem;
+    padding-bottom: 5.3125rem;
+}

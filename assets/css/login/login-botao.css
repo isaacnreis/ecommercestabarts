@@ -1,0 +1,12 @@
+.login__botao {
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-family: var(--fonte-secundaria);
+    width: 30%;
+    padding: 1rem;
+}

@@ -21,17 +21,22 @@
     margin-bottom: 1rem;
 }
 
-.rodape__form input:active {
-    border: 2px solid var(--cor-principal);
+.rodape__form input:focus {
+    border-bottom: 2px solid var(--cor-principal);
 }
 
 .rodape__form textarea {
     border: none;
     border-radius: 4px;
     font-family: var(--fonte-secundaria);
+    outline: 0;
     padding-left: 1rem;
     padding-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.rodape__form textarea:focus {
+    border-bottom: 2px solid var(--cor-principal);
 }
 
 .rodape__form button {

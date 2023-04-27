@@ -1,0 +1,19 @@
+.login__email {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    font-family: var(--fonte-secundaria);
+    outline: none;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 30%;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.200);
+}
+
+.login__email:focus {
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+.login__email::placeholder {
+    font-family: var(--fonte-secundaria);
+}
