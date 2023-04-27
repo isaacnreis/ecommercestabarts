@@ -1,0 +1,20 @@
+.cabecalho__pesquisa {
+    border: 1px solid var(--cor-principal);
+    border-radius: 20px;
+    height: 2.875rem;
+    width: 50%;
+    padding-left: 1rem;
+}
+
+.cabecalho__pesquisa:active {
+    border: 2px solid var(--cor-principal);
+}
+
+.cabecalho__pesquisa--butao {
+    background: url("../../img/lupa.svg") no-repeat center;
+    border: none;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StabArts | Loja de Arte e Artenasato Online</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;700&family=Aclonica&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-anuncio.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-pesquisa.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-input.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-login.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-paginas.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-navegacao.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-link.css">
+    <link rel="stylesheet" href="./assets/css/navegacao/navegacao.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-textos.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-subtitulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-butao.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-topo.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-titulo.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-link.css">
+    <link rel="stylesheet" href="./assets/css/produtos/produtos-linha.css">
+    <link rel="stylesheet" href="./assets/css/produto/btn.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-imagem.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-preco.css">
+    <link rel="stylesheet" href="./assets/css/produto/produto-link.css">
+    <link rel="stylesheet" href="./assets/css/faixa/faixa.css">
+    <link rel="stylesheet" href="./assets/css/faixa/faixa-texto.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-sociais.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-form.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-info.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-nav.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-link.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-contato.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-copy.css">
+  
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__anuncio">
+            <p>Frete grátis | em compras acima de R$ 49,99</p>
+        </div>
+         <div class="cabecalho__menu">
+            <a href="index.html"><img src="./assets/img/logo.svg" alt="Logo Stab Arts" class="cabecalho__logo"></a>
+            <form action="" class="cabecalho__pesquisa">
+                <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?"><button class="cabecalho__pesquisa--butao" type="submit"></button></input>
+            </form>
+            <div class="cabecalho__paginas">
+                <a href="#" class="cabecalho__login"> <span class="cabecalho__login--icone"></span> Login</a>
+                <a href="#"><img src="./assets/img/carrinhoCompras.svg" alt="ícone carrinho de compras" class="cabecalho__carrinho"></a>
+                <a href="#"><img src="./assets/img/prancheta.svg" alt="ícone prancheta (pedidos)" class="cabecalho__carrinho"></a>
+            </div>
+        </div>
+
+        <nav>
+            <ul class="cabecalho__navegacao">
+                <li><a href="#" class="cabecalho__link">Casa e decoração</a>
+                    <ul class="navegacao--oculta">
+                        <li><a href="#">Quadros</a></li>
+                        <li><a href="#">Tapetes</a></li>
+                        <li><a href="#">Panos de prato</a></li>
+                        <li><a href="#">Toalhas</a></li>
+                        <li><a href="#">Canecas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="cabecalho__link">Acessórios</a>
+                    <ul class="navegacao--oculta">
+                        <li><a href="#">Anéis</a></li>
+                        <li><a href="#">Brincos</a></li>
+                        <li><a href="#">Colares</a></li>
+                        <li><a href="#">Cinto</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="cabecalho__link">Papelaria</a>
+                    <ul class="navegacao--oculta">
+                        <li class="navegacao--subtitulo">Materiais
+                            <ul>
+                                <li><a href="#">Lápis</a></li>
+                                <li><a href="#">Papéis</a></li>
+                                <li><a href="#">Cadernos</a></li>
+                                <li><a href="#">Tintas</a></li>
+                            </ul>  
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" class="cabecalho__link">Vestuário</a>
+                    <ul class="navegacao--oculta">
+                        <li class="navegacao--subtitulo">Roupas
+                            <ul>
+                                <li><a href="#">Camisetas</a></li>
+                                <li><a href="#">Calças</a></li>
+                            </ul>  
+                        </li>
+                        <li class="navegacao--subtitulo">Roupas infantis
+                            <ul>
+                                <li><a href="#">Camisetas</a></li>
+                                <li><a href="#">Calças</a></li>
+                            </ul>  
+                        </li> 
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__titulo">Novos Produtos</div>
+            <div class="banner__textos">
+                <p class="banner__subtitulo">Nova coleção exclusiva com descontos progressivos</p>
+                <a href="" class="banner__butao">Novos Produtos</a>
+            </div>
+        </section>
+
+        <section class="produtos">
+            <div class="produtos__topo">
+                <span class="produtos__topo--icone"></span>
+                <h2 class="produtos__titulo">Quadros</h2>
+                <a href="#" class="produtos__link">Ver tudo <span class="produtos__link--icone" ></span></a>
+            </div>
+
+            <button class="pre-btn"><img src="./assets/img/seta.svg" alt="Ícone de uma seta apontada para esquerda"></button>
+            <button class="nxt-btn"><img src="./assets/img/seta.svg" alt="Ícone de uma seta apontada para direita"></button>
+
+            <div class="produtos__linha">
+            
+                <article class="produto produto--1">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="produtos">
+            <div class="produtos__topo">
+                <span class="produtos__topo--icone"></span>
+                <h2 class="produtos__titulo">Materiais</h2>
+                <a href="#" class="produtos__link">Ver tudo <span class="produtos__link--icone" ></span></a>
+            </div>
+
+            <button class="pre-btn"><img src="./assets/img/seta.svg" alt="Ícone de uma seta apontada para esquerda"></button>
+            <button class="nxt-btn"><img src="./assets/img/seta.svg" alt="Ícone de uma seta apontada para direita"></button>
+
+            <div class="produtos__linha">
+                <article class="produto produto--1">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="faixa">
+            <h2 class="faixa__textoT">Frete grátis |</h2>
+            <h3 class="faixa__textoP">Em compras a partir de R$ 49,99 para todo o Brasil</h3>
+        </section>
+
+        <section class="produtos">
+            <div class="produtos__topo">
+                <span class="produtos__topo--icone"></span>
+                <h2 class="produtos__titulo">Mais vendidos</h2>
+                <a href="#" class="produtos__link">Ver tudo <span class="produtos__link--icone" ></span></a>
+            </div>
+
+            <button class="pre-btn"><img src="./assets/img/seta.svg" alt="Ícone de uma seta apontada para esquerda"></button>
+            <button class="nxt-btn"><img src="./assets/img/seta.svg" alt="Ícone de uma seta apontada para direita"></button>
+
+            <div class="produtos__linha">
+                <article class="produto produto--1">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+                <article class="produto">
+                    <img src="./assets/img/produto.jpg" alt="Imagem ilustrativa de um produto" class="produto__imagem">
+                    <h3 class="produto__titulo">Produto XYZ</h3>
+                    <div class="produto__preco">
+                        <p class="produto__preco--antigo">R$ 99,99</p>
+                        <h3>R$ 60,00</h3>
+                    </div>
+                    <a href="#" class="produto__link">Ver produto</a>
+                </article>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <div class="rodape__info">
+            <section class="rodape__logo">
+                <a href="index.html"><img src="./assets/img/logo.svg" alt="Logo Stab Arts" class="rodape__logo--imagem"></a>
+                <h3 class="rodape__socias--titulo">Rede Sociais</h3>
+                <div class="rodape__socias">
+                    <a href="#" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/twitter.svg" alt="Ícone Twitter" class="rodape__socias--twiter"> </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/instagram.svg" alt="Ícone Twitter" class="rodape__socias--instagram"> </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/facebook.svg" alt="Ícone Twitter" class="rodape__socias--facebook"> </a>
+                </div>
+            </section>
+
+            <section class="rodape__links">
+                <nav class="rodape__nav">
+                    <a href="#" class="rodape__link">Quem somos nós</a>
+                    <a href="#" class="rodape__link">Política de privacidade</a>
+                    <a href="#" class="rodape__link">Programa fidelidade</a>
+                    <a href="#" class="rodape__link">Nossas lojas</a>
+                    <a href="#" class="rodape__link">Quero ser franqueado</a>
+                    <a href="#" class="rodape__link">Anuncie aqui</a>
+                </nav>
+            </section>
+
+            <section class="rodape__contato">
+                <form action="" class="rodape__form">
+                    <legend>Fale com a Stab Arts</legend>
+                    <input type="text" placeholder="Nome">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </section>
+        </div>
+
+        <section class="rodape__copy">
+            <p>© Desenvolvido por Isaac N. Reis - 2023</p>
+            <a href="https://isaacnreis.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Portfólio</a>
+        </section>
+
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

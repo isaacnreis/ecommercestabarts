@@ -1,0 +1,13 @@
+.banner {
+    align-items: center;
+    background-color: #F02326;
+    background-image: url("../../img/ilustracao.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 79.8vh;
+    padding-left: 10%;
+    padding-right: 10%;
+}

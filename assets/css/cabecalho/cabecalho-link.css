@@ -1,0 +1,14 @@
+.cabecalho__link {
+    box-sizing: border-box;
+    color: var(--cor-preto);
+    display: inline-block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    height: 100%;
+    padding-top: 0.5rem;
+}
+
+.cabecalho__link:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}

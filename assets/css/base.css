@@ -1,0 +1,28 @@
+:root {
+    --cor-principal: #ED3F3F;
+    --cor-principal-clara: #F5ACAC;
+    --cor-preto: #2D2929;
+    --cor-branco: #FFFFFF;
+    --fonte-principal: 'Abhaya Libre', serif;
+    --fonte-secundaria: 'Aclonica', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}

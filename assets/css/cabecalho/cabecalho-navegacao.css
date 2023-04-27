@@ -1,0 +1,15 @@
+.cabecalho__navegacao {
+    align-items: center;
+    background-color: var(--cor-principal-clara);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+}
+
+.cabecalho__navegacao li {
+    height: 100%;
+}

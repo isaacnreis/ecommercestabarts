@@ -1,0 +1,20 @@
+.rodape__copy {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    font-size: 1.25rem;
+    height: 120px;
+    text-align: center;
+}
+
+.rodape__copy p {
+    padding: 2rem 0 1rem 0;
+}
+
+.rodape__copy a {
+    color: var(--cor-branco);
+    transition: .2s all ease-in-out;
+}
+
+.rodape__copy a:hover {
+    color: #b1b1b1;
+}

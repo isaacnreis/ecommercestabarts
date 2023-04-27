@@ -1,0 +1,15 @@
+.produtos__linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.produtos__linha::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,17 @@
+.produtos__link {
+    color: var(--cor-principal);
+    font-size: 1.25rem;
+    transition: .2s all ease-in-out;
+}
+
+.produtos__link--icone {
+    background: url("../../img/seta.svg");
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+}
+
+.produtos__link:hover {
+    color: #a11515;
+}

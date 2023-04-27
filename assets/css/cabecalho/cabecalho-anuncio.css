@@ -1,0 +1,7 @@
+.cabecalho__anuncio {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    text-align: center;
+    height: 1.5rem;
+    vertical-align: middle;
+}

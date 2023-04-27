@@ -1,0 +1,10 @@
+.produtos__topo--icone {
+    background: url("../../img/loader.svg");
+    height: 24px;
+    width: 24px;
+}
+
+.produtos__topo {
+    display: flex;
+    justify-content: space-between;
+}

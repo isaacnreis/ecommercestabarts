@@ -1,0 +1,9 @@
+.rodape__link {
+    color: var(--cor-preto);
+    transition: .2s all ease-in-out;
+}
+
+.rodape__link:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}

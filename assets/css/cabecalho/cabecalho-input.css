@@ -1,0 +1,14 @@
+.cabecalho__input {
+    border: none;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+    font-size: 1.2rem;
+    outline: none;
+    font-weight: 500;
+    height: 100%;
+    width: 93%;
+}
+
+.cabecalho__input::placeholder {
+    font-family: var(--fonte-principal);
+}

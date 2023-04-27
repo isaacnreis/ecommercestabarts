@@ -1,0 +1,11 @@
+.rodape__info {
+    align-items: center;
+    background: var(--cor-principal-clara);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}

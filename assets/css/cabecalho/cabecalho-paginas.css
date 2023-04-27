@@ -1,0 +1,8 @@
+.cabecalho__paginas {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 20%;
+}

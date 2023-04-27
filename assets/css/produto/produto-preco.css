@@ -1,0 +1,13 @@
+.produto__preco{
+    align-items: center;
+    color: var(--cor-principal);
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    gap: 5px;
+}
+
+.produto__preco--antigo {
+    font-size: 1rem;
+    text-decoration: line-through;
+}

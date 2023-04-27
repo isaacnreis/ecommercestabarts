@@ -1,0 +1,41 @@
+.navegacao--oculta {
+    background: var(--cor-branco);
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+}
+
+.cabecalho__navegacao li:hover .navegacao--oculta {
+    display: flex;
+}
+
+.navegacao--oculta:hover {
+    display: flex;
+}
+
+.navegacao--subtitulo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navegacao--subtitulo ul {
+    text-transform: capitalize;
+}
+
+.navegacao--oculta a {
+    color: var(--cor-preto);
+    font-size: 1.25rem;
+    font-family: var(--fonte-principal);
+}
+
+.navegacao--oculta a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}

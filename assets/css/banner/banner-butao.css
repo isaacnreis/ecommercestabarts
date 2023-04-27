@@ -1,0 +1,7 @@
+.banner__butao {
+    color: var(--cor-branco);
+    background-color: var(--cor-principal);
+    border-radius: 10px;
+    font-family: var(--fonte-secundaria);
+    padding: 1rem;
+}
