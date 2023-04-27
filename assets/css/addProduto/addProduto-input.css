@@ -1,0 +1,30 @@
+.addProduto__input {
+    position: relative;
+    width: 30%;
+}
+
+#nome, #preco {
+    width: 100%;
+}
+
+.addProduto__input--label {
+    position: absolute;
+    bottom: 1rem;
+    color: #707070;
+    left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all .25s;
+}
+
+.addProduto__input input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.addProduto__input input:not(:placeholder-shown) + .addProduto__input--label, .addProduto__input input:focus + .addProduto__input--label {
+    font-size: 0.875rem;
+    bottom: 2.7rem;
+    transition: all .25s;
+    color: #A2A2A2;
+}

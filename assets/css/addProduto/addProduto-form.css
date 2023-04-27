@@ -1,0 +1,54 @@
+.addProduto__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-secundaria);
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.addProduto__form input {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    outline: none;
+    padding: 2rem 1rem 1rem 1rem;
+    width: 30%;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.075);
+}
+
+.addProduto__form input:focus {
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+.addProduto__form textarea {
+    border: none;
+    border-radius: 4px;
+    font-family: var(--fonte-secundaria);
+    font-size: 1rem;
+    outline: 0;
+    resize: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    width: 30%;
+}
+
+.addProduto__form textarea:focus {
+    border-bottom: 2px solid var(--cor-principal);
+}
+
+.addProduto__form button {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    cursor: pointer;
+    font-family: var(--fonte-secundaria);
+    width: 30%;
+    padding: 1rem;
+}

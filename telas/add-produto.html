@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Adicionar Produto | StabArts</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;700&family=Aclonica&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-pesquisa.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-input.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-login.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-paginas.css">
+    <link rel="stylesheet" href="../assets/css/addProduto/addProduto.css">
+    <link rel="stylesheet" href="../assets/css/addProduto/addProduto-form.css">
+    <link rel="stylesheet" href="../assets/css/addProduto/addProduto-titulo.css">
+    <link rel="stylesheet" href="../assets/css/addProduto/addProduto-imagem.css">
+    <link rel="stylesheet" href="../assets/css/addProduto/addProduto-input.css">
+
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-sociais.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-form.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-info.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-nav.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-link.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-contato.css">
+    <link rel="stylesheet" href="../assets/css/rodape/rodape-copy.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__menu">
+           <a href="index.html"><img src="../assets/img/logo.svg" alt="Logo Stab Arts" class="cabecalho__logo"></a>
+           <form action="" class="cabecalho__pesquisa">
+               <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?"><button class="cabecalho__pesquisa--butao" type="submit"></button></input>
+           </form>
+           <div class="cabecalho__paginas">
+               <a href="#" class="cabecalho__login" style="color: var(--cor-principal);">Menu administrador</a>
+           </div>
+       </div>
+   </header>
+   <main>
+       <section class="addProduto">
+        <form action="" class="addProduto__form">
+            <legend class="addProduto__titulo">Adicionar novo produto</legend>
+            <div class="addProduto__imagem">
+                <div>
+                    <span>🖼</span>
+                    <p>Arraste para adicionar uma imagem para o produto</p>
+                </div>
+                <p>Ou</p>
+                <button>Procure no seu computador</button>
+            </div>
+            <input type="text" placeholder="URL da imagem">
+            <div class="addProduto__input">
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                <label for="nome" class="addProduto__input--label">Nome do produto</label>
+            </div>
+            <div class="addProduto__input">
+                <input type="number" min="0" max="10000" id="preco" name="preco" placeholder="Preço" required>
+                <label for="preco" class="addProduto__input--label">Preço do produto</label>
+            </div>
+            <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descrição do produto" required></textarea>
+            <button type="submit">Adicionar produto</button>
+        </form>
+       </section>
+   </main>
+   <footer class="rodape">
+       <div class="rodape__info">
+           <section class="rodape__logo">
+               <a href="index.html"><img src="../assets/img/logo.svg" alt="Logo Stab Arts" class="rodape__logo--imagem"></a>
+               <h3 class="rodape__socias--titulo">Rede Sociais</h3>
+               <div class="rodape__socias">
+                   <a href="#" target="_blank" rel="noopener noreferrer"> <img src="../assets/img/twitter.svg" alt="Ícone Twitter" class="rodape__socias--twiter"> </a>
+                   <a href="#" target="_blank" rel="noopener noreferrer"> <img src="../assets/img/instagram.svg" alt="Ícone Twitter" class="rodape__socias--instagram"> </a>
+                   <a href="#" target="_blank" rel="noopener noreferrer"> <img src="../assets/img/facebook.svg" alt="Ícone Twitter" class="rodape__socias--facebook"> </a>
+               </div>
+           </section>
+
+           <section class="rodape__links">
+               <nav class="rodape__nav">
+                   <a href="#" class="rodape__link">Quem somos nós</a>
+                   <a href="#" class="rodape__link">Política de privacidade</a>
+                   <a href="#" class="rodape__link">Programa fidelidade</a>
+                   <a href="#" class="rodape__link">Nossas lojas</a>
+                   <a href="#" class="rodape__link">Quero ser franqueado</a>
+                   <a href="#" class="rodape__link">Anuncie aqui</a>
+               </nav>
+           </section>
+
+           <section class="rodape__contato">
+               <form action="" class="rodape__form">
+                   <legend>Fale com a Stab Arts</legend>
+                   <input type="text" placeholder="Nome">
+                   <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+                   <button type="submit">Enviar mensagem</button>
+               </form>
+           </section>
+       </div>
+
+       <section class="rodape__copy">
+           <p>© Desenvolvido por Isaac N. Reis - 2023</p>
+           <a href="https://isaacnreis.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Portfólio</a>
+       </section>
+
+   </footer>
+</body>
+</html>
