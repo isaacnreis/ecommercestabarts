@@ -1,10 +1,10 @@
-.produto__link {
+.similarProd__link {
     color: var(--cor-principal);
     font-family: var(--fonte-secundaria);
     font-size: 0.875rem;
     transition: .2s all ease-in-out;
 }
 
-.produto__link:hover {
+.similarProd__link:hover {
     color: #a11515;
 }

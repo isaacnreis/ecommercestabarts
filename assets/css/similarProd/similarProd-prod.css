@@ -1,0 +1,10 @@
+.similarProd__prod {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 176px;
+}
+
+.prod--1 {
+    margin-left: 3rem;
+}

@@ -1,0 +1,13 @@
+.similarProd__linha {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.similarProd__linha::-webkit-scrollbar {
+    display: none;
+  }
