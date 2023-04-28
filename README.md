@@ -2,8 +2,6 @@
     🚧 Projeto em construção 🚧
 </h4>
 
-<br>
-
 <h1 align="center">
   🛒🎨<br>StabArts | Loja de Arte e Artenasato Online
 </h1>
@@ -13,7 +11,7 @@
 <br>
 
 <h2 align="center"><a href="https://isaacnreis.github.io/
-ecommercestabarts/">Clique para visitar o projeto</a></h2>
+ecommercestabarts/telas">Clique para visitar o projeto</a></h2>
 
 ---
 
@@ -21,11 +19,7 @@ ecommercestabarts/">Clique para visitar o projeto</a></h2>
 
 ---
 
-<br>
-
 ### 🎨 Modelo Figma: <a href="https://www.figma.com/file/mOO94q7ZGuq98SCoQl1NN1/E-Commerce---Stab-ARTS?node-id=38208-37&t=FJl081LpWTwQj4nU-0">Link</a>
-
-<br>
 
 ---
 

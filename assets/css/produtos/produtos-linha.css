@@ -6,7 +6,7 @@
   margin-top: 1.5rem;
   margin-bottom: 4rem;
   width: 100%;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
