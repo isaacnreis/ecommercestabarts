@@ -1,0 +1,8 @@
+.todosProd__link {
+    color: var(--cor-branco);
+    background-color: var(--cor-principal);
+    border-radius: 10px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    padding: 1rem;
+}

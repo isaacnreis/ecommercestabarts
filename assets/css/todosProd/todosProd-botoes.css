@@ -1,0 +1,17 @@
+.todosProd__botoes {
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+
+.todosProd__botoes button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.todosProd__botoes img {
+    height: 24px;
+    width: 24px;
+}

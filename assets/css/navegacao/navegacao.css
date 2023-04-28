@@ -1,5 +1,5 @@
 .navegacao--oculta {
-    background: var(--cor-branco);
+    background: var(--cor-cinza);
     display: none;
     flex-direction: row;
     flex-wrap: wrap;

@@ -8,6 +8,7 @@
     padding-left: 10%;
     padding-right: 10%;
     position: relative;
+    z-index: 1;
 }
 
 .cabecalho__navegacao li {
