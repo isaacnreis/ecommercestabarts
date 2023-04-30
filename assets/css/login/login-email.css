@@ -6,7 +6,7 @@
     font-family: var(--fonte-secundaria);
     outline: none;
     padding: 1rem 1rem 2rem 1rem;
-    width: 30%;
+    width: 100%;
     box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.200);
 }
 
@@ -16,4 +16,10 @@
 
 .login__email::placeholder {
     font-family: var(--fonte-secundaria);
+}
+
+@media screen and (max-width: 768px) {
+    .login__email {
+        font-size: 1rem;
+    }
 }

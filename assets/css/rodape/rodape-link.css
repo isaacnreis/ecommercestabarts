@@ -7,3 +7,15 @@
     color: black;
     border-bottom: 1px solid black;
 }
+
+@media screen and (max-width: 768px) {
+    .rodape__link {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rodape__link {
+        text-align: center;
+    }
+}

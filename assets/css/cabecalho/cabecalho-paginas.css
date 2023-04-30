@@ -1,8 +1,30 @@
 .cabecalho__paginas {
     align-items: center;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: space-between;
     width: 20%;
+}
+
+.cabecalho__menu--mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__paginas .icone {
+        width: 20px;
+        height: 20px;
+    }
+
+    .cabecalho__menu--mobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho__paginas {
+        width: 40%;
+    }
 }

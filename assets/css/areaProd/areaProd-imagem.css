@@ -2,3 +2,22 @@
     width: 50%;
     max-width: 560px;
 }
+
+@media screen and (max-width: 768px) {
+    .areaProd__imagem {
+        width: 50%;
+        max-width: 254px;
+        max-height: 182px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .areaProd__imagem {
+        box-sizing: border-box;
+        width: 100vw;
+        max-width: 99vw;
+        max-height: 192px;
+        position: relative;
+        left: -5%;
+    }
+}

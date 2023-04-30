@@ -5,3 +5,9 @@
     height: 1.5rem;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 480px) {
+    .cabecalho__anuncio {
+        font-size: 0.875rem;
+    }
+}

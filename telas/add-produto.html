@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Adicionar Produto | StabArts</title>
+    
+    <link rel="shortcut icon" href="../assets/img/favicon.svg" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +15,7 @@
 
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-menu.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-logo.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-pesquisa.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-input.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-login.css">
@@ -22,7 +25,6 @@
     <link rel="stylesheet" href="../assets/css/addProduto/addProduto-titulo.css">
     <link rel="stylesheet" href="../assets/css/addProduto/addProduto-imagem.css">
     <link rel="stylesheet" href="../assets/css/addProduto/addProduto-input.css">
-
     <link rel="stylesheet" href="../assets/css/rodape/rodape-sociais.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-form.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-info.css">
@@ -35,16 +37,17 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho__menu">
-           <a href="index.html"><img src="../assets/img/logo.svg" alt="Logo Stab Arts" class="cabecalho__logo"></a>
-           <form action="" class="cabecalho__pesquisa">
-               <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?"><button class="cabecalho__pesquisa--butao" type="submit"></button></input>
-           </form>
-           <div class="cabecalho__paginas">
-               <a href="#" class="cabecalho__login" style="color: var(--cor-principal);">Menu administrador</a>
+            <a href="index.html" class="cabecalho__logo"><img src="../assets/img/logo.svg" alt="Logo Stab Arts"></a>
+            <form action="" class="cabecalho__pesquisa">
+                <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?"><button class="cabecalho__input--botao" type="submit"></button></input>
+            </form>
+           <div class="cabecalho__paginas" style="width: auto;">
+               <a href="#" class="cabecalho__login--adm">Menu administrador</a>
            </div>
        </div>
    </header>
    <main>
+        <div style="color: var(--cor-branco); height: 2rem;"></div>
        <section class="addProduto">
         <form action="" class="addProduto__form">
             <legend class="addProduto__titulo">Adicionar novo produto</legend>

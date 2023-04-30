@@ -9,3 +9,32 @@
 .produto--1 {
     margin-left: 2.5vw;
 }
+
+@media screen and (max-width: 768px) {
+    .produto {
+        margin-bottom: 0.5rem;
+    }
+    
+    .produto--1 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .produto {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .produto {
+        width: 156px;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .produto {
+        width: 120px;
+    }
+}

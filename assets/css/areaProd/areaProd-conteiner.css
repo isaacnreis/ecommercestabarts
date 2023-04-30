@@ -2,3 +2,17 @@
     padding-left: 10%;
     padding-right: 10%;
 }
+
+@media screen and (max-width: 768px) {
+    .areaProd__conteiner {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .areaProd__conteiner {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

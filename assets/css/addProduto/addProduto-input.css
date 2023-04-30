@@ -1,6 +1,6 @@
 .addProduto__input {
     position: relative;
-    width: 30%;
+    width: 100%;
 }
 
 #nome, #preco {

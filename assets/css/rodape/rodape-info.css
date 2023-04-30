@@ -9,3 +9,23 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+    .rodape__info {
+        flex-wrap: wrap;
+        gap: 1px;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rodape__info {
+        flex-direction: column;
+        gap: 2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

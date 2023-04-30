@@ -18,3 +18,9 @@
 .rodape__copy a:hover {
     color: #b1b1b1;
 }
+
+@media screen and (max-width: 480px) {
+    .rodape__copy {
+        font-size: 1rem;
+    }
+}

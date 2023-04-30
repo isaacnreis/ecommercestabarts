@@ -5,3 +5,9 @@
 .similarProd__prod--titulo {
     font-size: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .similarProd__titulo {
+        font-size: 1.5rem;
+    }
+}

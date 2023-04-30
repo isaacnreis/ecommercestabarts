@@ -5,7 +5,7 @@
 }
 
 .produtos__link--icone {
-    background: url("../../img/seta.svg");
+    background: url("../../img/seta.svg") no-repeat center / contain;
     display: inline-block;
     height: 16px;
     vertical-align: middle;
@@ -14,4 +14,10 @@
 
 .produtos__link:hover {
     color: #a11515;
+}
+
+@media screen and (max-width: 480px) {
+    .produtos__link {
+        font-size: 1rem;
+    }
 }

@@ -14,3 +14,9 @@
 .cabecalho__navegacao li {
     height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecalho__navegacao {
+        display: none;
+    }
+}

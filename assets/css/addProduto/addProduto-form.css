@@ -7,6 +7,8 @@
     justify-content: center;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    width: 40%;
+    margin: 0 auto;
 }
 
 .addProduto__form input {
@@ -17,7 +19,7 @@
     font-family: var(--fonte-secundaria);
     outline: none;
     padding: 2rem 1rem 1rem 1rem;
-    width: 30%;
+    width: 100%;
     box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.075);
 }
 
@@ -35,7 +37,7 @@
     padding-left: 1rem;
     padding-top: 1rem;
     margin-bottom: 1rem;
-    width: 30%;
+    width: 100%;
 }
 
 .addProduto__form textarea:focus {
@@ -49,6 +51,30 @@
     color: var(--cor-branco);
     cursor: pointer;
     font-family: var(--fonte-secundaria);
-    width: 30%;
+    width: 40%;
     padding: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    .addProduto__form {
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .addProduto__form {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .addProduto__form {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+    }
 }

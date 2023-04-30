@@ -15,3 +15,17 @@
     height: 24px;
     width: 24px;
 }
+
+@media screen and (max-width: 768px) {
+    .todosProd__botoes img {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .todosProd__botoes img {
+        height: 20px;
+        width: 20px;
+    }
+}

@@ -12,3 +12,20 @@
 .cabecalho__input::placeholder {
     font-family: var(--fonte-principal);
 }
+
+.cabecalho__input--botao {
+    background: url("../../img/lupa.svg") no-repeat center;
+    border: none;
+    cursor: pointer;
+    top: 12px;
+    right: 16px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .cabecalho__input::placeholder {
+        font-size: 0.875rem;
+    }
+}

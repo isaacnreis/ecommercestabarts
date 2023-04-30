@@ -7,6 +7,8 @@
 
     <title>Login | StabArts</title>
 
+    <link rel="shortcut icon" href="../assets/img/favicon.svg" type="image/x-icon">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;700&family=Aclonica&display=swap" rel="stylesheet">
@@ -34,19 +36,22 @@
 </head>
 <body>
     <header class="cabecalho">
-         <div class="cabecalho__menu">
-            <a href="index.html"><img src="../assets/img/logo.svg" alt="Logo Stab Arts" class="cabecalho__logo"></a>
+        <div class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__logo"><img src="../assets/img/logo.svg" alt="Logo Stab Arts"></a>
             <form action="" class="cabecalho__pesquisa">
-                <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?"><button class="cabecalho__pesquisa--butao" type="submit"></button></input>
+                <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?"><button class="cabecalho__input--botao" type="submit"></button></input>
             </form>
             <div class="cabecalho__paginas">
-                <a href="#" class="cabecalho__login"> <span class="cabecalho__login--icone"></span> Login</a>
-                <a href="#"><img src="../assets/img/carrinhoCompras.svg" alt="ícone carrinho de compras" class="cabecalho__carrinho"></a>
-                <a href="#"><img src="../assets/img/prancheta.svg" alt="ícone prancheta (pedidos)" class="cabecalho__carrinho"></a>
+                <a href="login.html" class="cabecalho__login"> <span class="cabecalho__login--icone"></span> <span class="cabecalho__login--texto">Login</span></a>
+                <a href="#"><img src="../assets/img/carrinhoCompras.svg" alt="ícone carrinho de compras" class="cabecalho__carrinho icone"></a>
+                <a href="#"><img src="../assets/img/prancheta.svg" alt="ícone prancheta (pedidos)" class="cabecalho__prancheta icone"></a>
             </div>
+        </div>
         </div>
     </header>
     <main>
+        <div style="color: var(--cor-branco); height: 2rem;"></div>
+
         <section class="login">
             <form action="" class="login__form">
                 <legend class="login__titulo">Iniciar Sessão</legend>

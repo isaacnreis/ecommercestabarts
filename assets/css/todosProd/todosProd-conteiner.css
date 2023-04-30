@@ -3,6 +3,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
-    gap: 3rem;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .todosProd__conteiner {
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .todosProd__titulo {
+        font-size: 1.375rem;
+    }
 }

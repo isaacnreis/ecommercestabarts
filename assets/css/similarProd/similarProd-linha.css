@@ -11,3 +11,19 @@
 .similarProd__linha::-webkit-scrollbar {
     display: none;
   }
+
+  @media screen and (max-width: 768px) {
+    .similarProd__linha {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 2rem;
+        overflow-x: visible;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .similarProd__linha {
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+}

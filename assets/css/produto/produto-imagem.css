@@ -2,3 +2,23 @@
     height: 277px;
     width: 250px;
 }
+
+@media screen and (max-width: 610px) {
+    .produto__imagem {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .produto__imagem {
+        height: 212px;
+        width: 156px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .produto__imagem {
+        height: 180px;
+        width: 120px;
+    }
+}

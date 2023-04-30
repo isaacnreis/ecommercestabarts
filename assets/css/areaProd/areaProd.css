@@ -4,3 +4,17 @@
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+    .areaProd {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .areaProd {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+}

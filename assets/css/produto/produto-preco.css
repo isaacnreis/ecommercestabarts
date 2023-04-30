@@ -11,3 +11,14 @@
     font-size: 1rem;
     text-decoration: line-through;
 }
+
+@media screen and (max-width: 480px) {
+    .produto__preco{
+        font-size: 1rem;
+        gap: 4px;
+    }
+    
+    .produto__preco--antigo {
+        font-size: 0.875rem;
+    }
+}

@@ -2,3 +2,9 @@
     font-size: 1.25rem;
     font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+    .areaProd__descricao {
+        font-size: 1rem;
+    }
+}

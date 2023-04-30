@@ -1,4 +1,4 @@
-.cabecalho__login {
+.cabecalho__login, .cabecalho__login--adm {
     align-items: center;
     color: var(--cor-preto);
     border: 1px solid var(--cor-principal);
@@ -15,4 +15,31 @@
     background: url("../../img/usuario.svg") no-repeat left / contain;
     height: 24px;
     width: 24px;
+}
+
+.cabecalho__login--adm {
+    color: var(--cor-principal);
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cabecalho__login {
+        border: none;
+        padding: 0;
+    }
+
+    .cabecalho__login--icone {
+        height: 20px;
+        width: 20px;
+    }
+
+    .cabecalho__login--texto {
+        display: none;
+    }
+
+    .cabecalho__login--adm {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
 }

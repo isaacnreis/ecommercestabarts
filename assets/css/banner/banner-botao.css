@@ -3,5 +3,15 @@
     background-color: var(--cor-principal);
     border-radius: 10px;
     font-family: var(--fonte-secundaria);
+    text-align: center;
     padding: 1rem;
+    width: 70%;
+}
+
+@media screen and (max-width: 480px) {
+    .banner__botao {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+        width: 45%;
+    }
 }

@@ -8,3 +8,15 @@
 .prod--1 {
     margin-left: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+    .prod--1 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .similarProd__prod {
+        width: 156px;
+    }
+}

@@ -4,5 +4,6 @@
     border-radius: 10px;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
+    text-align: center;
     padding: 1rem;
 }
