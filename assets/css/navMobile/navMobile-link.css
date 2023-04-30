@@ -1,0 +1,15 @@
+.navMobile__link {
+    color: var(--cor-preto);
+    font-size: 1.5rem;
+}
+
+.navMobile__link:hover {
+    border-bottom: 1px solid black;
+    color: black; 
+}
+
+.navMobile__link--sub {
+    color: var(--cor-preto);
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}

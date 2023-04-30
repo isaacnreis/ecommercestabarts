@@ -1,0 +1,19 @@
+.navMobile__topo {
+    align-items: center;
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+}
+
+.navMobile__topo img {
+    height: 24px;
+    width: 24px;
+    margin-left: 10%;
+}
+
+.navMobile__topo div {
+    font-size: 1.25rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+}

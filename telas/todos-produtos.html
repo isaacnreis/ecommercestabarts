@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-navegacao.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-link.css">
     <link rel="stylesheet" href="../assets/css/navegacao/navegacao.css">
+    <link rel="stylesheet" href="../assets/css/navMobile/navMobile.css">
+    <link rel="stylesheet" href="../assets/css/navMobile/navMobile-topo.css">
+    <link rel="stylesheet" href="../assets/css/navMobile/navMobile-nav.css">
+    <link rel="stylesheet" href="../assets/css/navMobile/navMobile-link.css">
     <link rel="stylesheet" href="../assets/css/todosProd/todosProd.css">
     <link rel="stylesheet" href="../assets/css/todosProd/todosProd-topo.css">
     <link rel="stylesheet" href="../assets/css/todosProd/todosProd-titulo.css">
@@ -58,7 +62,7 @@
                 <a href="login.html" class="cabecalho__login"> <span class="cabecalho__login--icone"></span> <span class="cabecalho__login--texto">Login</span></a>
                 <a href="#"><img src="../assets/img/carrinhoCompras.svg" alt="ícone carrinho de compras" class="cabecalho__carrinho icone"></a>
                 <a href="#"><img src="../assets/img/prancheta.svg" alt="ícone prancheta (pedidos)" class="cabecalho__prancheta icone"></a>
-                <button><img src="../assets/img/menu.svg" alt="ícone prancheta (pedidos)" class="cabecalho__menu--mobile"></button>
+                <button onclick="abrirNav()"><img src="../assets/img/menu.svg" alt="ícone menu" class="cabecalho__menu--mobile"></button>
             </div>
         </div>
 
@@ -105,6 +109,53 @@
                             <ul>
                                 <li><a href="#">Camisetas</a></li>
                                 <li><a href="#">Calças</a></li>
+                            </ul>  
+                        </li> 
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="navMobile">
+            <div class="navMobile__topo"><img src="../assets/img/favicon.svg" alt="Ícone logo"> <div class="btnFechar" onclick="fecharNav()">&#10006</div></div>
+            <ul class="navMobile__nav">
+                <li><a href="#" class="navMobile__link">Casa e decoração</a>
+                    <ul>
+                        <li><a href="#" class="navMobile__link--sub">Quadros</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Tapetes</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Panos de prato</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Toalhas</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Canecas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="navMobile__link">Acessórios</a>
+                    <ul>
+                        <li><a href="#" class="navMobile__link--sub">Anéis</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Brincos</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Colares</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Cinto</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="navMobile__link">Papelaria</a>
+                    <ul>
+                        <li><a href="#" class="navMobile__link--sub">Lápis</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Papéis</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Cadernos</a></li>
+                        <li><a href="#" class="navMobile__link--sub">Tintas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="navMobile__link">Vestuário</a>
+                    <ul>
+                        <li>Roupas
+                            <ul>
+                                <li><a href="#" class="navMobile__link--sub">Camisetas</a></li>
+                                <li><a href="#" class="navMobile__link--sub">Calças</a></li>
+                            </ul>  
+                        </li>
+                        <li>Roupas infantis
+                            <ul>
+                                <li><a href="#" class="navMobile__link--sub">Camisetas</a></li>
+                                <li><a href="#" class="navMobile__link--sub">Calças</a></li>
                             </ul>  
                         </li> 
                     </ul>
@@ -397,5 +448,7 @@
         </section>
 
     </footer>
+    
+    <script src="../assets/js/navMobile.js"></script>
 </body>
 </html>

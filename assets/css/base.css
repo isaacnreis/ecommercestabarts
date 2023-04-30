@@ -26,4 +26,5 @@ li {
 body {
     font-family: var(--fonte-principal);
     font-weight: 600;
+    transition: margin-right 0.5s;
 }
