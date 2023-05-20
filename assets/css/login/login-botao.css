@@ -9,6 +9,12 @@
     font-family: var(--fonte-secundaria);
     width: 30%;
     padding: 1rem;
+    margin-left: 35%;
+}
+
+.login__botao[disabled]{
+    opacity: 0.6;
+    cursor: auto;
 }
 
 @media screen and (max-width: 768px) {

@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="../assets/css/login/login-email.css">
     <link rel="stylesheet" href="../assets/css/login/login-senha.css">
     <link rel="stylesheet" href="../assets/css/login/login-botao.css">
+    <link rel="stylesheet" href="../assets/css/login/login-erro.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-sociais.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-form.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-info.css">
@@ -55,9 +56,18 @@
         <section class="login">
             <form action="" class="login__form">
                 <legend class="login__titulo">Iniciar Sessão</legend>
-                <input type="email" name="email" id="email" class="login__email" placeholder="Escreva seu email" required>
-                <input type="password" name="senha" id="senha" class="login__senha" placeholder="Escreva sua senha" required>
-                <button type="submit" class="login__botao">Entrar</button>
+                <div >
+                    <span class="login__erro esconder">Este campo não está válido</span>
+                    <input type="email" autocomplete="username" name="email"  id="email" class="login__email" placeholder="Escreva seu email" required>
+                </div>
+                <div>
+                    <span class="login__erro esconder">Este campo não está válido</span>
+                    <input type="password" autocomplete="current-password" name="senha" id="senha" class="login__senha" placeholder="Escreva sua senha" required>
+                </div>
+                <div>
+                    <button type="submit" class="login__botao" >Entrar</button>
+                    <span class="login__erro login__erro--submit esconder">Usuário inválido (Email: admin@email.com Senha:123456)</span>
+                </div>
             </form>
         </section>
     </main>
@@ -85,7 +95,8 @@
             </section>
 
             <section class="rodape__contato">
-                <form action="" class="rodape__form">
+                <form action="https://formsubmit.co/isaacreisn@gmail.com" method="POST" class="rodape__form">
+                    <input type="hidden" name="_next" value="https://isaacnreis.github.io/ecommercestabarts/telas">
                     <legend>Fale com a Stab Arts</legend>
                     <input type="text" placeholder="Nome">
                     <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
@@ -100,5 +111,6 @@
         </section>
 
     </footer>
+    <script src="../assets/js/validaLogin.js"></script>
 </body>
 </html>

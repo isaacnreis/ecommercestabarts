@@ -1,0 +1,16 @@
+{
+    "profile": [
+      {
+        "nome": "Administração",
+        "email": "admin@email.com",
+        "senha": "123456",
+        "id": 1
+      },
+      {
+        "nome": "Isaac",
+        "email": "isaac@email.com",
+        "senha": "321",
+        "id": 2
+      }
+    ]
+  }

@@ -5,10 +5,14 @@
     font-family: var(--fonte-secundaria);
     gap: 1rem;
     justify-content: center;
-    width: 35%;
     padding-top: 5.3125rem;
     padding-bottom: 5.3125rem;
     margin: 0 auto;
+    width: 40%;
+}
+
+.login__form div {
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {

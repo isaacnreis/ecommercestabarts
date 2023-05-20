@@ -28,3 +28,7 @@ body {
     font-weight: 600;
     transition: margin-right 0.5s;
 }
+
+.esconder {
+    display: none;
+}

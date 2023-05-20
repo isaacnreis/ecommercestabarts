@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-input.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-login.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-paginas.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-botao.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-navegacao.css">
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho-link.css">
     <link rel="stylesheet" href="../assets/css/navegacao/navegacao.css">
@@ -67,7 +68,7 @@
                 <a href="login.html" class="cabecalho__login"> <span class="cabecalho__login--icone"></span> <span class="cabecalho__login--texto">Login</span></a>
                 <a href="#"><img src="../assets/img/carrinhoCompras.svg" alt="ícone carrinho de compras" class="cabecalho__carrinho icone"></a>
                 <a href="#"><img src="../assets/img/prancheta.svg" alt="ícone prancheta (pedidos)" class="cabecalho__prancheta icone"></a>
-                <button onclick="abrirNav()"><img src="../assets/img/menu.svg" alt="ícone menu" class="cabecalho__menu--mobile"></button>
+                <button class="cabecalho__botao" onclick="abrirNav()"><img src="../assets/img/menu.svg" alt="ícone menu" class="cabecalho__menu--mobile"></button>
             </div>
         </div>
 
@@ -284,7 +285,8 @@
             </section>
 
             <section class="rodape__contato">
-                <form action="" class="rodape__form">
+                <form action="https://formsubmit.co/isaacreisn@gmail.com" method="POST" class="rodape__form">
+                    <input type="hidden" name="_next" value="https://isaacnreis.github.io/ecommercestabarts/telas">
                     <legend>Fale com a Stab Arts</legend>
                     <input type="text" placeholder="Nome">
                     <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
