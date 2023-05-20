@@ -7,7 +7,7 @@ const password = document.getElementById("senha");
 const profiles = {};
 
 profiles.getProfiles = () => {
-  return fetch("http://127.0.0.1:5500/db.json")
+  return fetch("../db.json")
     .then((response) => response.json())
     .then((bJson) => bJson.profile)
     .then((profiles) => profiles.map((profile) => profile));
