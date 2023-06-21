@@ -1,16 +1,94 @@
 {
-    "profile": [
-      {
-        "nome": "Administração",
-        "email": "admin@email.com",
-        "senha": "123456",
-        "id": 1
-      },
-      {
-        "nome": "Isaac",
-        "email": "isaac@email.com",
-        "senha": "321",
-        "id": 2
-      }
-    ]
-  }
+  "profile": [
+    {
+      "nome": "Administração",
+      "email": "admin@email.com",
+      "senha": "123456",
+      "id": 1
+    },
+    {
+      "nome": "Isaac",
+      "email": "isaac@email.com",
+      "senha": "321",
+      "id": 2
+    }
+  ],
+  "produtos": [
+    {
+      "imagem": "https://images.pexels.com/photos/114123/pexels-photo-114123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nome": "Pincéis",
+      "departamento": "Materias",
+      "precoAntigo": "99,99",
+      "preco": "60,60",
+      "descricao": "Pincel (do catalão pincell) refere-se a varios instrumentos manuais de diversos tamanhos dotados de filamentos rígidos fixados na extremidade de um cabo próprio, como pelos, cerdas ou fios, comumente usado para limpeza, pintura, maquilhagem e polimento.",
+      "id": 1
+    },
+    {
+      "imagem": "https://images.pexels.com/photos/1327716/pexels-photo-1327716.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "nome": "Tinta",
+      "departamento": "Materias",
+      "precoAntigo": "99,99",
+      "preco": "49,99",
+      "descricao": "A tinta é muito comum e aplica-se a praticamente qualquer tipo de objectos. Usa-se para produzir arte; na indústria: estruturas metálicas, produção de automóveis, equipamentos, tubulações, produtos eletro-eletrónicos; como protecção anticorrosiva; na construção civil: em paredes interiores, em superfícies exteriores, expostas às condições meteorológicas; um grande número de aplicações actuais e futuras, como frascos utilizados para perfumes e maquiagens.",
+      "id": 2
+    },
+    {
+      "imagem": "https://images.pexels.com/photos/4786954/pexels-photo-4786954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nome": "Picéis 2",
+      "departamento": "Materias",
+      "precoAntigo": "189,90",
+      "preco": "129,99",
+      "descricao": "Os pincéis de pintura são usados para a aplicação de tinta ou pintura. São produzidos usualmente pela fixação dos pêlos ao cabo por uma cinta metálica, a virola. Em informática, o termo Paint brush (pincel de pintura) refere-se ao seu equivalente digital, utilizado em qualquer programa de computador (software) gráfico, ou seja, um pincel virtual que pode modificar uma imagem digital.",
+      "id": 3
+    },
+    {
+      "imagem": "https://images.pexels.com/photos/6941671/pexels-photo-6941671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nome": "Quadro 1",
+      "departamento": "Quadros",
+      "precoAntigo": "3000.00",
+      "preco": "499,99",
+      "descricao": "Obra de arte, trabalho artístico ou somente obra, é uma obra criada ou avaliada por sua função artística ao invés de prática. Por função artística, se entende a representação de um símbolo, do belo. Apesar de não ter isso como principal objetivo, uma obra de arte pode ter utilidade prática.",
+      "id": 4
+    },
+    {
+      "imagem": "https://images.pexels.com/photos/1153895/pexels-photo-1153895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nome": "Giz",
+      "precoAntigo": "19,99",
+      "preco": "9,99",
+      "descricao": "Basicamente, existem duas formas mais usadas na hora de manipular e usar o giz de cera. A primeira e a mais antiga, utiliza a cera ainda quente e derretida. Este processo exige um maior cuidado e é mais complexo. Desta forma, é preciso derreter a cera momentos antes de usá-la. A segunda técnica e mais utilizada, é a do giz de cera frio e sólido, encontrado em barras.",
+      "id": 5
+    },
+    {
+      "imagem": "../assets/img/produto.jpg",
+      "nome": "Produto XYZ",
+      "precoAntigo": 60.60,
+      "preco": 60.60,
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 6
+    },
+    {
+      "imagem": "https://images.pexels.com/photos/8349186/pexels-photo-8349186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nome": "Escultura",
+      "precoAntigo": "2000,00",
+      "preco": "1999,90",
+      "descricao": "Escultura é uma arte que representa ou ilustra imagens plásticas em relevo total ou parcial. Existem várias técnicas de trabalhar os materiais, como a cinzelação, a fundição, a moldagem ou a aglomeração de partículas para a criação de um objeto.",
+      "id": 7
+    },
+    {
+      "imagem": "https://images.pexels.com/photos/6816472/pexels-photo-6816472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nome": "Quadro 2",
+      "precoAntigo": "99,99",
+      "preco": "89,99",
+      "descricao": "Obra de arte, trabalho artístico ou somente obra, é uma obra criada ou avaliada por sua função artística ao invés de prática. Por função artística, se entende a representação de um símbolo, do belo. Apesar de não ter isso como principal objetivo, uma obra de arte pode ter utilidade prática.",
+      "id": 8
+    },
+    {
+      "imagem": "https://images.pexels.com/photos/4069091/pexels-photo-4069091.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "nome": "Quadro 3",
+      "precoAntigo": "99,99",
+      "preco": "89,99",
+      "descricao": "Obra de arte, trabalho artístico ou somente obra, é uma obra criada ou avaliada por sua função artística ao invés de prática. Por função artística, se entende a representação de um símbolo, do belo. Apesar de não ter isso como principal objetivo, uma obra de arte pode ter utilidade prática.",
+      "id": 9
+    }
+  ]
+}
