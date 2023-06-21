@@ -1,12 +1,12 @@
 import { produtosService } from "../service/produtos-service.js";
 
-const modeloProduto = (imagem, nome, precoAntigo, preco) => {
+const modeloProduto = (imagem, nome, precoAntigo, preco, id) => {
 
   const produto = document.createElement('article');
   produto.classList.add('produto');
   const conteudo = `
   <div class="todosProd__botoes">
-    <button><img src="../assets/img/lixeira.svg" alt="Ícone de lixeira"></button>
+    <button><img src="../assets/img/lixeira.svg" class="btnDeletar" alt="Ícone de lixeira"></button>
     <button><img src="../assets/img/lapis.svg" alt="Ícone de lápis"></button>
   </div>
 
@@ -19,17 +19,37 @@ const modeloProduto = (imagem, nome, precoAntigo, preco) => {
   <a href="area-produto.html" class="produto__link">Ver produto</a>`;
 
   produto.innerHTML = conteudo;
+  produto.dataset.id = id;
   return produto;
 }
 
 const conteiner = document.querySelector('.todosProd__conteiner');
+
+conteiner.addEventListener('click', async (evento) => {
+  let ehBoataoDeletar = evento.target.className == 'btnDeletar';
+  if(ehBoataoDeletar){
+
+    try{
+      const conteinerProduto = evento.target.closest('[data-id]');
+      console.log(conteinerProduto)
+      let id = conteinerProduto.dataset.id;
+      await produtosService.deletaProduto(id);
+      conteinerProduto.remove();
+
+    } catch (error){
+      console.log(error)
+      alert(error);
+    }
+
+  }
+})
 
 const render = async () => {
 
   try{
     const listaProdutos = await produtosService.carregarProduto();
     listaProdutos.forEach(produto => {
-      conteiner.appendChild(modeloProduto(produto.imagem, produto.nome, produto.precoAntigo, produto.preco));
+      conteiner.appendChild(modeloProduto(produto.imagem, produto.nome, produto.precoAntigo, produto.preco, produto.id));
     });
 
   } catch(error){

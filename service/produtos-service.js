@@ -8,6 +8,18 @@ const carregarProduto = () => {
   });
 }
 
+const deletaProduto = (id) => {
+  return fetch(`http://localhost:3000/produtos/${id}`,{
+    method: 'DELETE'
+  }).then((resposta) => {
+    if(!resposta.ok){
+      throw new Error('Não foi possível remover o produto')
+    }
+  })
+
+}
+
 export const produtosService = {
-  carregarProduto
+  carregarProduto,
+  deletaProduto
 }
