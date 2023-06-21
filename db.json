@@ -59,11 +59,11 @@
       "id": 5
     },
     {
-      "imagem": "../assets/img/produto.jpg",
-      "nome": "Produto XYZ",
-      "precoAntigo": 60.60,
-      "preco": 60.60,
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "imagem": "https://images.unsplash.com/photo-1582053628662-c65b0e0544e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      "nome": "Moldura 1",
+      "precoAntigo": "49,99",
+      "preco": "39,99",
+      "descricao": "Moldura é qualquer proteção externa utilizada em quadros. Molduras foram originalmente utilizadas como ornamentos arquitetônicos em altares de igrejas.",
       "id": 6
     },
     {

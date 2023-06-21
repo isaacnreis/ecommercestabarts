@@ -10,8 +10,21 @@
 
 <br>
 
-<h2 align="center"><a href="https://isaacnreis.github.io/
-ecommercestabarts/telas">Clique para visitar o projeto</a></h2>
+---
+### Instruções para rodar CRUD
+
+abrir a pasta ecommercestabarts no vscode e 
+rodar o json server: 
+```js
+json-server --watch db.json
+```
+
+Rodar: browser-sync start --server --file . --host --port 5000 --startPath telas/index.html
+
+---
+
+<a href="https://isaacnreis.github.io/ecommercestabarts/telas
+">Acessar GitHub Pages (Somente previw sem conexão total com banco de dados)</a>
 
 ---
 

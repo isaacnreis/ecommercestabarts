@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Login | StabArts</title>
+    <title>Cadastro | StabArts</title>
 
     <link rel="shortcut icon" href="../assets/img/favicon.svg" type="image/x-icon">
 
@@ -26,7 +26,6 @@
     <link rel="stylesheet" href="../assets/css/login/login-senha.css">
     <link rel="stylesheet" href="../assets/css/login/login-botao.css">
     <link rel="stylesheet" href="../assets/css/login/login-erro.css">
-    <link rel="stylesheet" href="../assets/css/login/login-cadastro.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-sociais.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-form.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape-info.css">
@@ -37,42 +36,43 @@
 
 </head>
 <body>
+
     <header class="cabecalho">
         <div class="cabecalho__menu">
             <a href="index.html" class="cabecalho__logo"><img src="../assets/img/logo.svg" alt="Logo Stab Arts"></a>
+
             <form action="" class="cabecalho__pesquisa">
                 <input class="cabecalho__input" type="text" placeholder="O que deseja encontrar?"><button class="cabecalho__input--botao" type="submit"></button></input>
             </form>
+
             <div class="cabecalho__paginas">
                 <a href="login.html" class="cabecalho__login"> <span class="cabecalho__login--icone"></span> <span class="cabecalho__login--texto">Login</span></a>
                 <a href="#"><img src="../assets/img/carrinhoCompras.svg" alt="ícone carrinho de compras" class="cabecalho__carrinho icone"></a>
                 <a href="#"><img src="../assets/img/prancheta.svg" alt="ícone prancheta (pedidos)" class="cabecalho__prancheta icone"></a>
             </div>
-        </div>
+
         </div>
     </header>
+
     <main>
         <div style="color: var(--cor-branco); height: 2rem;"></div>
 
         <section class="login">
-            <form action="" class="login__form">
-                <legend class="login__titulo">Iniciar Sessão</legend>
+            <form class="login__form">
+                <legend class="login__titulo">Cadastro</legend>
                 <div >
-                    <span class="login__erro esconder">Este campo não está válido</span>
                     <input type="email" autocomplete="username" name="email"  id="email" class="login__email" placeholder="Escreva seu email" required>
                 </div>
                 <div>
-                    <span class="login__erro esconder">Este campo não está válido</span>
                     <input type="password" autocomplete="current-password" name="senha" id="senha" class="login__senha" placeholder="Escreva sua senha" required>
                 </div>
                 <div>
-                    <button type="submit" class="login__botao" >Entrar</button>
-                    <a class="login__cadastro" href="./cadastro-usuario.html">Cadastrar</a>
-                    <span class="login__erro login__erro--submit esconder">Usuário inválido (Email: admin@email.com Senha:123456)</span>
+                    <button type="submit" class="login__botao">Cadastrar</button>
                 </div>
             </form>
         </section>
     </main>
+
     <footer class="rodape">
         <div class="rodape__info">
             <section class="rodape__logo">
@@ -113,6 +113,7 @@
         </section>
 
     </footer>
-    <script src="../assets/js/validaLogin.js"></script>
+
+    <script type="module" src="../controller/cadastraUsuario-controller.js"></script>
 </body>
 </html>
